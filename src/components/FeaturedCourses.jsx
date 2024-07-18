@@ -4,7 +4,7 @@ import FeaturedCoursesCompo from "./FeaturedCoursesCompo";
 const FeaturedCourses = () => {
   return (
     <div>
-      <div className=" bg-[#064bb3] h-[78vh] md:h-[80vh] pt-[30px] pl-[80px]">
+      <div className=" bg-[#064bb3] h-[900px] md:h-[80vh] pt-[30px] pl-[80px]">
         <div>
           <div className="text-[28px] font-[600] text-white">
             <span>Featured</span>
@@ -14,7 +14,7 @@ const FeaturedCourses = () => {
             Isn't Learning an investment your future deserves?
           </div>
         </div>
-        <div className=" flex justify-around pr-[80px]">
+        <div className=" flex justify-around pr-[80px] flex-col md:flex-row">
           <FeaturedCoursesCompo
             Images={featuredcourse}
             TxtBtn="interview prep"

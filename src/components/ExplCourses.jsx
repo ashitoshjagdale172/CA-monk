@@ -16,43 +16,48 @@ const ExplCourses = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </div>
         </div>
-        <div className=" flex flex-wrap justify-center items-center gap-10 md:gap-32 mt-10">
-          <ExplCoursesCompo
-            Images={interview}
-            heading="interview Preparation"
-            lineF="Cracking Interview"
-            lineS="made easy"
-          />
-          <ExplCoursesCompo
-            Images={interview}
-            heading="interview Preparation"
-            lineF="Cracking Interview"
-            lineS="made easy"
-          />
-          <ExplCoursesCompo
-            Images={interview}
-            heading="interview Preparation"
-            lineF="Cracking Interview"
-            lineS="made easy"
-          />
-          <ExplCoursesCompo
-            Images={interview}
-            heading="interview Preparation"
-            lineF="Cracking Interview"
-            lineS="made easy"
-          />
-          <ExplCoursesCompo
-            Images={interview}
-            heading="interview Preparation"
-            lineF="Cracking Interview"
-            lineS="made easy"
-          />
-          <ExplCoursesCompo
-            Images={interview}
-            heading="interview Preparation"
-            lineF="Cracking Interview"
-            lineS="made easy"
-          />
+        <div className=" flex flex-row md:flex-col  justify-center items-center gap-10 md:gap-32 mt-10">
+          <div className=" flex flex-col md:flex-row gap-10  md:gap-[150px] ">
+            {" "}
+            <ExplCoursesCompo
+              Images={interview}
+              heading="interview Preparation"
+              lineF="Cracking Interview"
+              lineS="made easy"
+            />
+            <ExplCoursesCompo
+              Images={interview}
+              heading="interview Preparation"
+              lineF="Cracking Interview"
+              lineS="made easy"
+            />
+            <ExplCoursesCompo
+              Images={interview}
+              heading="interview Preparation"
+              lineF="Cracking Interview"
+              lineS="made easy"
+            />
+          </div>
+          <div className=" flex flex-col md:flex-row gap-10  md:gap-[150px] ">
+            <ExplCoursesCompo
+              Images={interview}
+              heading="interview Preparation"
+              lineF="Cracking Interview"
+              lineS="made easy"
+            />
+            <ExplCoursesCompo
+              Images={interview}
+              heading="interview Preparation"
+              lineF="Cracking Interview"
+              lineS="made easy"
+            />
+            <ExplCoursesCompo
+              Images={interview}
+              heading="interview Preparation"
+              lineF="Cracking Interview"
+              lineS="made easy"
+            />
+          </div>
         </div>
       </div>
     </div>

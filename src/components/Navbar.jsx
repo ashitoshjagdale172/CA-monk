@@ -31,8 +31,8 @@ const Navbar = () => {
     <div>
       <div className="flex justify-center items-center text-center gap-[20px] bg-blue-700 text-white text-[6px] md:text-[14px]  z-20">
         <div>
-          <p className="   md:visible invisible">Getting Interview Ready Workshop Now Available In Recorded Version</p>
-          <p className="  visible md:invisible">GIR Now Available In Recorded Version</p>
+          <span className="   md:visible invisible">Getting Interview Ready Workshop Now Available In Recorded Version</span>
+          <span className="-ml-[105px]  visible md:invisible">GIR Now Available In Recorded Version</span>
         </div>
         <div>
           <button className="py-1 px-3 bg-white text-blue-700 font-[600]">Enroll Now &rarr;</button>

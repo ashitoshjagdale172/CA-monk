@@ -94,27 +94,27 @@ const Header = () => {
             Get Hired By
           </span>
         </div>
-        <div className="flex gap-20 justify-evenly mb-5 ">
+        <div className="flex gap-4 md:gap-20 justify-evenly mb-5 ">
           
-            <img className=" h-9 " src={BOB} alt="" />
+            <img className="h-3 md:h-9 " src={BOB} alt="" />
         
           
-            <img className=" h-9 " src={viraj} alt="" />
+            <img className="h-3 md:h-9 " src={viraj} alt="" />
          
           
-            <img className=" h-9 " src={infosys} alt="" />
+            <img className="h-3 md:h-9 " src={infosys} alt="" />
         
           
-            <img className=" h-9 " src={EY} alt="" />
+            <img className="h-3 md:h-9 " src={EY} alt="" />
           
           
-            <img className=" h-9 " src={gail} alt="" />
+            <img className="h-3 md:h-9 " src={gail} alt="" />
          
           
-            <img className=" h-9 " src={cipla} alt="" />
+            <img className="h-3 md:h-9 " src={cipla} alt="" />
         
           
-            <img className=" h-9 " src={godrej} alt="" />
+            <img className="h-3 md:h-9 " src={godrej} alt="" />
          
         </div>
       </div>
